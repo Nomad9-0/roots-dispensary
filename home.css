@@ -49,7 +49,7 @@ h1 span {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    padding: 10px 30px;
+    padding: 5px 30px;
     line-height: 2.2;
     cursor: pointer;
     box-sizing: border-box;
@@ -135,6 +135,10 @@ h2 span {
         padding-left: 20px;
         padding-right: 20px;
     }
+    .secondCities {
+        display: block;
+        padding-left: 0;
+    }
 }
 @media only screen and (max-width: 428px) {
     .jumbotron h1 {
@@ -162,5 +166,11 @@ h2 span {
     }
     .col {
         flex-basis: auto;
+    }
+    .local-row {
+        flex-wrap: wrap-reverse;
+    }
+    .orders-row {
+        flex-wrap: wrap-reverse;
     }
 }
