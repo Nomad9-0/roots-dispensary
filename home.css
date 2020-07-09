@@ -20,10 +20,6 @@ body {
 .jumbotron {
     text-align: center;
 }
-.jumbotron .rootsFlower {
-    height: 110px;
-    width: 300px;
-}
 .jumbotron h1 {
     width: 300px;
     margin: auto;
@@ -149,8 +145,8 @@ h2 span {
         font-size: 35px;
     }
     .jumbotron .rootsFlower {
-        height: 80px;
-        width: 200px;
+        height: 60px;
+        width: 75px;
     }
     .lead {
         font-size: 18px;
