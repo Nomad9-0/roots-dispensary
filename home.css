@@ -10,6 +10,7 @@ body {
 }
 .navbar-light .navbar-nav .nav-link {
     color: #222;
+    padding: 5px;
 }
 .nav-item {
     border: 2px solid #fff;
@@ -66,11 +67,17 @@ h1 span {
     font-weight: 700;
     color: #0fe1b7;
 }
+h2 {
+    padding-top: 34px;
+}
 h2 span {
     color: #0fe1b7; 
 }
 .image-one {
     background: grey;
+}
+.local-btn {
+    margin-bottom: 20px;
 }
 .products {
     padding-top: 24px;
@@ -85,12 +92,32 @@ h2 span {
     background: grey;
     margin: auto;
 }
+ul {
+    list-style: none; /* Remove default bullets */
+} 
+ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #0fe1b7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 .firstCities {
     display: inline-block;
 }
 .secondCities {
     display: inline-block;
     padding-left: 34px;
+}
+.delivery-btn {
+    margin-bottom: 20px;
+}
+.order-btn {
+    margin-bottom: 20px;
+}
+.community-btn {
+    margin-bottom: 20px;
 }
 .healthWellness {
     text-align: center;
@@ -160,14 +187,35 @@ h2 span {
     }
     h2 {
         font-size: 25px;
+        font-weight: 700;
     }
     .col {
         flex-basis: auto;
     }
     .local-row {
         flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .delivery-service {
+        text-align: center;
+    }
+    .delivery-service ul {
+        padding-left: 0;
+    }
+    .delivery-service .firstCities {
+        text-align: left;
+    }
+    .delivery-service .secondCities {
+        text-align: left;
+        display: inline-block;
+        padding-left: 34px;
     }
     .orders-row {
         flex-wrap: wrap-reverse;
+        text-align: center;
     }
+    .community {
+        text-align: center;
+    }
+    
 }
