@@ -7,12 +7,13 @@ body {
 }
 .navbar-nav {
     margin-left: auto;
+
 }
 .navbar-light .navbar-nav .nav-link {
     color: #222;
     padding: 5px;
 }
-.nav-item {
+.nav-link {
     border: 2px solid #fff;
 }
 .navbar-light .navbar-nav .nav-link:hover {
@@ -92,10 +93,10 @@ h2 span {
     background: grey;
     margin: auto;
 }
-ul {
+.delivery-service ul {
     list-style: none; /* Remove default bullets */
 } 
-ul li::before {
+.delivery-service ul li::before {
     content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #0fe1b7; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
