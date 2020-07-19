@@ -81,69 +81,68 @@ h2 span {
 .safety-guidelines h2 {
     padding-top: 0;
 }
-.community-container {
-    text-align: center;
-}
-.first-time-visit {
-    background: silver;
-    color: #fff;
-}
-.first-time-visit .first-visit-btn {
-    margin-bottom: 34px;
-    margin-top: 100px;
-    background-color: #0fe1b7;
-    border-radius: 50px;
-    color: #000;
-    border: 2px solid #0fe1b7;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    padding: 1px 15px;
-    line-height: 2.2;
-    cursor: pointer;
-    box-sizing: border-box;
-}
-.first-time-visit .first-visit-btn:hover {
-    background-color: #222;
-    color: #0fe1b7;    
-}
-.membership {
+.image-one {
     background: grey;
-    color: #fff;
-} 
-.membership h2 {
-    width: 280px;
+}
+.local-btn {
+    margin-bottom: 20px;
+}
+.products {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.featured-product {
+    background: silver;
     margin: auto;
+    margin-bottom: 15px;
+}
+.product-options {
+    background: grey;
+    margin: auto;
+}
+.delivery-service ul {
+    list-style: none; /* Remove default bullets */
 } 
-.membership p {
-    margin-bottom: 0;
+.delivery-service ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #0fe1b7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.firstCities {
+    display: inline-block;
+}
+.secondCities {
+    display: inline-block;
+    padding-left: 34px;
+}
+.delivery-btn {
+    margin-bottom: 20px;
+}
+.order-btn {
+    margin-bottom: 20px;
+}
+.community-btn {
+    margin-bottom: 20px;
+}
+.healthWellness {
+    text-align: center;
+}
+.healthWellness h2 {
+    padding-top: 54px;
+} 
+.healthWellness p {
+    padding-top: 20px;
     font-size: 20px;
 } 
-.membership .membership-btn {
-    margin-top: 70px;
-    margin-bottom: 34px;
-    background-color: #0fe1b7;
-    border-radius: 50px;
-    color: #000;
-    border: 2px solid #0fe1b7;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-decoration: none;
+.map {
+    height:200px;
+    background: silver;
     text-align: center;
-    text-transform: uppercase;
-    padding: 1px 15px;
-    line-height: 2.2;
-    cursor: pointer;
-    box-sizing: border-box;
 }
-.membership .membership-btn:hover {
-    background-color: #222;
-    color: #0fe1b7;
-}
+
 .navbar.footer {
     background: #222;
 }
@@ -156,33 +155,6 @@ h2 span {
 .footer .navbar-nav .nav-link:hover {
     color: #fff;
 }
-
-.products-options {
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
-}
-.products-options .row a {
-    height: 250px;
-    text-transform: uppercase;
-    background: silver;
-    border: 2px #0fe1b7 solid;
-}
-.products-options .row .col p {
-    text-align: center;
-}
-.products-options .row a:hover {
-    text-decoration: none;
-}
-.products-options .first-row {
-    padding-bottom: 15px;
-}
-
-@media only screen and (max-width: 992px) {
-    .products-options .row a p {
-        font-size: 15px
-    }
-}
 @media only screen and (max-width: 991px) {
     .navbar-nav {
         margin: auto;
@@ -194,23 +166,9 @@ h2 span {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .membership h2 {
-        width: 240px;
-    }
-    .products-options .row a {
-        height: 150px;
-        margin-bottom: 15px;
-    }
-    .products-options .first-row {
-        padding-bottom: 0;
-    }
-}
-@media only screen and (max-width: 555px) {
-    .community-container .row {
+    .secondCities {
         display: block;
-    }
-    .membership h2 {
-        width: 280px;
+        padding-left: 0;
     }
 }
 @media only screen and (max-width: 428px) {
@@ -238,6 +196,34 @@ h2 span {
     h2 {
         font-size: 25px;
         font-weight: 700;
+    }
+    .col {
+        flex-basis: auto;
+    }
+    .local-row {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .delivery-service {
+        text-align: center;
+    }
+    .delivery-service ul {
+        padding-left: 0;
+    }
+    .delivery-service .firstCities {
+        text-align: left;
+    }
+    .delivery-service .secondCities {
+        text-align: left;
+        display: inline-block;
+        padding-left: 34px;
+    }
+    .orders-row {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .community {
+        text-align: center;
     }
     
 }
