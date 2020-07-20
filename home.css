@@ -188,6 +188,9 @@ h2 span {
     padding-bottom: 15px;
 }
 
+.we-care {
+    margin-bottom: 0;
+}
 @media only screen and (max-width: 1199px) {
     .products-options .row a p {
         margin-top: 85%;
