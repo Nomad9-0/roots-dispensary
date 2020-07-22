@@ -19,6 +19,9 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
     border:  2px solid #0fe1b7;
 }
+.nav .dropdown-menu .dropdown-item:hover {
+    background: #0fe1b7;
+}
 .jumbotron {
     text-align: center;
 }
@@ -213,6 +216,56 @@ h2 span {
     margin-bottom: 100px;
 }
 
+.footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #222;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer .nav-link {
+    color: #fff;
+    padding: 5px;
+}
+.footer .nav-link {
+    border: 2px solid #222;
+}
+.footer .nav-link:hover {
+    color: #0fe1b7;
+}
+.footer .footer-nav .dropdown-menu {
+    background: #222;
+    transform: translate3d(491px, 38px, 0px) !important;
+}
+.footer .dropdown-menu .dropdown-item {
+    color: #fff;
+}
+.footer .dropdown-menu .dropdown-item:hover {
+    color: #0fe1b7;
+    background: #222;
+}
+.footer .container .social-icons {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+.footer .container .social-icons:hover {
+    color: #0fe1b7;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer .container .instagram {
+    padding-left: 0;
+}
+.footer-nav {
+    padding-right: 35px;
+    border-right: #fff 1px solid;
+    text-align: right;
+}
+.footer-logo img {
+    height: 100px;
+}
 @media only screen and (max-width: 1199px) {
     .products-options .row a p {
         margin-top: 85%;
@@ -250,6 +303,22 @@ h2 span {
     .products-options .row a p {
         margin-top: 12%;
     }
+    .footer-nav {  
+        flex-basis: auto;
+        padding-right: 0px;
+        padding-left: 0px;
+        border-right: none;
+        text-align: center;
+    }
+    .footer-logo {   
+        flex-basis: auto;
+        text-align: center;
+        margin-top: 40px;
+
+    }
+    .footer-logo .navbar-brand {   
+        margin-right: 0;
+    }
 }
 @media only screen and (max-width: 555px) {
     .community-container .row {
@@ -257,6 +326,10 @@ h2 span {
     }
     .membership h2 {
         width: 280px;
+    }
+    .footer {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 @media only screen and (max-width: 428px) {
@@ -285,5 +358,7 @@ h2 span {
         font-size: 25px;
         font-weight: 700;
     }
-    
+    .we-care h2 {
+        font-weight: 600;
+    }
 }
