@@ -191,6 +191,28 @@ h2 span {
 .we-care {
     margin-bottom: 0;
 }
+
+.carousel-inner .carousel-item {
+    height: 400px;
+}
+.carousel-item-1 {
+    background: #222 url("./assets/marijuana-tourist.jpg") no-repeat;
+    background-size: cover;
+}
+.carousel-item-2 {
+    background: #222 url("./assets/surf.jpg") no-repeat;
+    background-size: cover;
+}
+.carousel-item-3 {
+    background: #222 url("./assets/beach.jpg") no-repeat;
+    background-size: cover;
+}
+.carousel-inner .carousel-item .carousel-caption {
+    background: #222;
+    opacity: 0.88;
+    margin-bottom: 100px;
+}
+
 @media only screen and (max-width: 1199px) {
     .products-options .row a p {
         margin-top: 85%;
