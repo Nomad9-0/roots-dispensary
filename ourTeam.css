@@ -1,0 +1,28 @@
+.our-team-header-container h1 {
+    text-align: center;
+}
+.our-team-header-container h1 span {
+    color: #0fe1b7;
+}
+.meet-team {
+    text-align: center;
+}
+.meet-team h2 {
+    font-weight: 600;
+}
+.meet-team h2 span {
+    color: #0fe1b7;
+}
+.meet-team p {
+    font-size: 20px;    
+}
+.team-member-cards {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.team-member-cards .row {
+    padding-top: 15px;
+}
+.team-member-cards .first-cards {
+    padding-top: 15px;
+}
