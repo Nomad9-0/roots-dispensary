@@ -1,0 +1,180 @@
+.delivery-hero{
+    text-align: center;
+}
+.delivery-hero p {
+    padding-top: 35px;
+    margin: auto;
+    width: 800px;
+}
+.delivery-schedule-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 00;
+}
+.delivery-schedule-title h2  {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.delivery-schedule {
+    padding-top: 25px;
+    text-align: center;
+}
+.delivery-schedule h4 {
+    padding-top: 25px;
+    text-align: center;
+    font-weight: 600;
+}
+.delivery-schedule .cities {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 100px;
+    font-weight: 600;
+}
+.delivery-schedule .minimum {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.delivery-schedule .time {
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+.delivery-schedule .delivery-block {
+    color: #222;
+}
+.delivery-schedule .blocks-container {
+    border: 2px #0fe1b7 solid;
+    padding: 10px;
+}
+.blocks-container .blocks-title {
+    background: #0fe1b7;
+}
+.blocks-container .delivery-block {
+    text-align: left;
+    color: #222;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+.blocks-container .round-time {
+    text-align: left;
+    color: #222;
+    font-size: 18px;
+    font-weight: 500;
+}
+.minimum-block {
+    border-top: 2px #222 solid;
+}
+.call-container {
+    text-align: center;
+    font-size: 25px;
+    background: grey;
+    padding: 10px;
+    margin-top: 45px;
+}
+.call-container p {
+    font-size: 45px;
+    color: #fff;
+}
+.call-container p a {
+    color: #0fe1b7;
+}
+.call-container p a:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px) {
+    .delivery-schedule .cities {
+        padding-left: 0px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .delivery-schedule .cities p {
+        font-size: 18px;
+    }
+    .delivery-schedule .minimum p {
+        font-size: 18px;
+    }
+    .delivery-schedule .time p {
+        font-size: 18px;
+    }
+    .delivery-schedule .blocks-container .round-time {
+        font-size: 15px;
+    }
+    .delivery-hero p {
+        width: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .delivery-schedule-title h2 {
+        font-size: 25px;
+    }
+    .delivery-schedule {
+        padding-top: 0px;
+    }
+    .delivery-schedule h4 {
+        font-size: 15px;
+    }
+    .delivery-schedule .cities p {
+        font-size: 14px;
+    }
+    .delivery-schedule .minimum p {
+        font-size: 14px;
+    }
+    .delivery-schedule .minimum .last-30 {
+        margin-bottom: 36px; 
+    }
+    .delivery-schedule .time p {
+        font-size: 14px;
+    }
+    .delivery-schedule .time .last-30 {
+        margin-bottom: 36px; 
+    }
+    .delivery-schedule .blocks-container .round-time {
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+@media only screen and (max-width: 433px) {
+    .delivery-schedule .time {
+        padding-top: 0px;
+    }
+}
+@media only screen and (max-width: 398px) {
+    .delivery-schedule .minimum .second-price {
+        padding-bottom: 22px; 
+    }
+    .delivery-schedule .time .second-time {
+        padding-bottom: 22px; 
+    }
+}
+@media only screen and (max-width: 380px) {
+    .blocks-container .blocks-title {
+        background: none;
+    }
+    .delivery-schedule .minimum .minimum-block .second {
+        padding-bottom: 20px; 
+    }
+}
+@media only screen and (max-width: 368px) {
+    .delivery-schedule .minimum .minimum-block .third {
+        padding-bottom: 20px; 
+    }
+}
+@media only screen and (max-width: 352px) {
+    .delivery-schedule .minimum .minimum-block .fifth {
+        padding-bottom: 20px; 
+    }
+}
+@media only screen and (max-width: 346px) {
+    .delivery-schedule .minimum .minimum-block .forth {
+        padding-bottom: 20px; 
+    }
+}
