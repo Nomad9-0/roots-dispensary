@@ -11,6 +11,9 @@
 }
 .footer .nav-link {
     border: 2px solid #222;
+    width: 160px;
+    margin: auto;
+    margin-right: inherit;
 }
 .footer .nav-link:hover {
     color: #0fe1b7;
@@ -55,6 +58,9 @@
         padding-left: 0px;
         border-right: none;
         text-align: center;
+    }
+    .footer .nav-link {
+        margin: auto;
     }
     .footer-logo {   
         flex-basis: auto;
