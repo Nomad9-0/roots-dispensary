@@ -39,6 +39,8 @@
 }
 .about-us .available{
     text-align: center;
+    padding-bottom: 50px;
+    padding-top: 55px;
 }
 
 @media screen and (max-width: 992px) {
@@ -60,6 +62,10 @@
     }
     .about-us .row4 {
         flex-direction: column-reverse;
+    }
+    .about-us .available {
+        padding-top: 20px;
+        padding-bottom: 40px;
     }
 }
 @media screen and (max-width: 555px) {
