@@ -146,6 +146,9 @@
     .delivery-schedule .time {
         padding-top: 0px;
     }
+    .call-container p {
+        font-size: 20px;
+    }
 }
 @media only screen and (max-width: 398px) {
     .delivery-schedule .minimum .second-price {
