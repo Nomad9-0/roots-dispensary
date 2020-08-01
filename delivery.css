@@ -142,7 +142,7 @@
         text-transform: capitalize;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 480px) {
     .call-container p {
         font-size: 20px;
     }
