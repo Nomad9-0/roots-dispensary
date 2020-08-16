@@ -39,14 +39,21 @@
     text-align: center;
     padding-bottom: 50px;
     text-transform: uppercase;
+    background: grey;
+    color: #fff;
 }
 .delivery-terms h2 {
     padding-bottom: 25px;
     padding-top: 25px;
 }
+.delivery-terms h2 span {
+    color: #0fe1b7;
+}
 .delivery-terms a {
     color: #0fe1b7;
 }
 .fine-print {
-    font-size: 14px;
+    font-size: 12px;
+    width: 600px;
+    margin: auto;
 }
