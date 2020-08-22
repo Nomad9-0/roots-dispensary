@@ -44,6 +44,9 @@
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         grid-gap: .5rem;
     }
+    .team-member-cards .card-deck .lone {
+        width: 130%;
+    }
 }
 @media screen and (max-width: 770px) {
     .about-us .row1 {
@@ -58,7 +61,15 @@
     .about-us .row4 {
         flex-direction: column-reverse;
     }
+    .team-member-cards .card-deck .lone {
+        width: 44%; 
+    }
 }
+@media screen and (max-width: 538px) {
+    .team-member-cards .card-deck .lone {
+        width: 100%; 
+    }
+} 
 @media screen and (max-width: 555px) {
     .our-team-header-container h1 {
         font-size: 34px
