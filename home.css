@@ -1,5 +1,6 @@
 .jumbotron {
     text-align: center;
+    padding-top: 120px;
 }
 .jumbotron h1 {
     width: 300px;
@@ -157,6 +158,9 @@ h2 span {
 
 .we-care {
     margin-bottom: 0;
+    padding-top: 64px;
+    background: #222;
+    color: #fff;
 }
 
 .carousel-inner .carousel-item {

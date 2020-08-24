@@ -1,5 +1,6 @@
 .events-hero {
     text-align: center;
+    padding-top: 120px;
 }
 .events-hero h1 {
     padding-bottom: 30px;
@@ -39,7 +40,7 @@
     text-align: center;
     padding-bottom: 50px;
     text-transform: uppercase;
-    background: grey;
+    background: #222;
     color: #fff;
 }
 .delivery-terms h2 {
