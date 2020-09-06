@@ -16,9 +16,6 @@
 .first-visit-container {
     padding-bottom: 40px;
 }
-.step-header {
-    background: grey;
-}
 .first-visit-container .row {
     padding-bottom: 20px;
 }
@@ -29,7 +26,13 @@
 }
 .first-visit-container h2 {
     text-transform: uppercase;
-    display:inline-block
+    display:inline-block;
+    background: #222;
+    color: #fff;
+    width: 100%;
+}
+.first-visit-container h2 span {
+    color: #0fe1b7;
 }
 .first-visit-container p {
     text-align: left;
