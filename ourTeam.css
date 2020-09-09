@@ -68,6 +68,11 @@
         width: 44%; 
     }
 }
+@media screen and (max-width: 575px) {
+    .team-member-cards .card-deck .lone {
+        width: 49%;
+    }
+}
 @media screen and (max-width: 538px) {
     .team-member-cards .card-deck .lone {
         width: 100%; 
