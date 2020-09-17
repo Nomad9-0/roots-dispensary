@@ -7,6 +7,54 @@
     margin: auto;
     width: 800px;
 }
+
+.delivery-locations .row a {
+    height: 200px;
+    text-transform: uppercase;
+    background: silver;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.delivery-locations .first-row {
+    padding-bottom: 15px;
+}
+
+.delivery-locations .row a:hover,
+.delivery-locations .row a:hover p {
+    color: #0fe1b7;
+    text-decoration: none;
+}
+
+.delivery-locations .row a p {
+    text-align: center;
+    margin-top: 50%;
+    color: #fff;
+    font-weight: 700;
+}
+.shop-now {
+    background-color: #0fe1b7;
+    border-radius: 50px;
+    color: #000;
+    border: 2px solid #0fe1b7;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    line-height: 2.2;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 35px;
+}
+.shop-now:hover {
+    background-color: #222;
+    color: #0fe1b7;
+} 
+
+/* Delivery Locations Styles */
 .delivery-schedule-title {
     text-align: center;
     text-transform: uppercase;
@@ -30,8 +78,7 @@
     padding-top: 15px;
     text-transform: uppercase;
     font-size: 20px;
-    text-align: left;
-    padding-left: 100px;
+    text-align: center;
     font-weight: 600;
 }
 .minimum {
@@ -104,6 +151,9 @@
     text-align: center;
     padding-left: 0px;
 }
+
+
+/* Call Roots */
 .call-container {
     text-align: center;
     font-size: 25px;
@@ -122,96 +172,13 @@
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1200px) {
-    .delivery-schedule .cities {
-        padding-left: 0px;
-    }
-}
 @media only screen and (max-width: 992px) {
-    .delivery-schedule .cities p {
-        font-size: 18px;
-    }
-    .delivery-schedule .minimum p {
-        font-size: 18px;
-    }
-    .delivery-schedule .time p {
-        font-size: 18px;
-    }
-    .blocks-container .round-time {
-        font-size: 15px;
-    }
     .delivery-hero p {
-        width: auto;
-    }
-    .minimum-block h4 {
-        font-size: 18px;
-    }
-    .minimum-block p {
-        font-size: 18px;
-    }
-}
-@media only screen and (max-width: 768px) {
-    .delivery-schedule-title h2 {
-        font-size: 25px;
-    }
-    .delivery-schedule {
-        padding-top: 0px;
-    }
-    .delivery-schedule h4 {
-        font-size: 15px;
-    }
-    .delivery-schedule .cities p {
-        font-size: 14px;
-    }
-    .delivery-schedule .minimum p {
-        font-size: 14px;
-    }
-    .delivery-schedule .minimum .last-30 {
-        margin-bottom: 36px; 
-    }
-    .delivery-schedule .time p {
-        font-size: 14px;
-    }
-    .delivery-schedule .time .last-30 {
-        margin-bottom: 36px; 
-    }
-    .blocks-container .delivery-block {
-        font-size: 16px;
-    }
-    .blocks-container .round-time {
-        font-size: 14px;
-        text-transform: capitalize;
-    }
-    .blocks-container .hours {
-        font-size: 14px;
-    }
-    .minimum-block h4 {
-        font-size: 15px;
-    }
-    .minimum-block p {
-        font-size: 14px;
-    }
-}
-@media only screen and (max-width: 592px) {
-    .blocks-container {
         width: auto;
     }
 }
 @media only screen and (max-width: 480px) {
     .call-container p {
         font-size: 20px;
-    }
-}
-@media only screen and (max-width: 433px) {
-    .delivery-schedule .time {
-        padding-top: 0px;
-    }
-}
-@media only screen and (max-width: 398px) {
-    .delivery-schedule .minimum .second-price {
-        padding-bottom: 22px; 
-    }
-    .delivery-schedule .time .second-time {
-        padding-bottom: 22px; 
     }
 }

@@ -31,6 +31,7 @@ h1 span {
     line-height: 2.2;
     cursor: pointer;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 .shop-now:hover {
     background-color: #222;
