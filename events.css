@@ -58,3 +58,11 @@
     width: 600px;
     margin: auto;
 }
+
+@media only screen and (max-width: 768px) {
+    .fine-print {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
