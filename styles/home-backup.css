@@ -1,0 +1,229 @@
+body {
+    font-family: sans-serif;
+}
+.navbar {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navbar-nav {
+    margin-left: auto;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #222;
+    padding: 5px;
+}
+.nav-link {
+    border: 2px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border:  2px solid #0fe1b7;
+}
+.jumbotron {
+    text-align: center;
+}
+.jumbotron h1 {
+    width: 300px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1 span {
+    color: #0fe1b7;
+}
+.jumbotron p{
+    padding-bottom:40px;
+}
+.shop-now {
+    background-color: #0fe1b7;
+    border-radius: 50px;
+    color: #000;
+    border: 2px solid #0fe1b7;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    line-height: 2.2;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.shop-now:hover {
+    background-color: #222;
+    color: #0fe1b7;
+} 
+.roots-action {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.roots-action p {
+    font-size: 24px;
+}
+.roots-action p span {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0fe1b7;
+}
+h2 {
+    padding-top: 34px;
+}
+h2 span {
+    color: #0fe1b7; 
+}
+.safety-guidelines {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.safety-guidelines h2 {
+    padding-top: 0;
+}
+.image-one {
+    background: grey;
+}
+.local-btn {
+    margin-bottom: 20px;
+}
+.products {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.featured-product {
+    background: silver;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.product-options {
+    background: grey;
+    margin: auto;
+}
+.delivery-service ul {
+    list-style: none; /* Remove default bullets */
+} 
+.delivery-service ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #0fe1b7; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.firstCities {
+    display: inline-block;
+}
+.secondCities {
+    display: inline-block;
+    padding-left: 34px;
+}
+.delivery-btn {
+    margin-bottom: 20px;
+}
+.order-btn {
+    margin-bottom: 20px;
+}
+.community-btn {
+    margin-bottom: 20px;
+}
+.healthWellness {
+    text-align: center;
+}
+.healthWellness h2 {
+    padding-top: 54px;
+} 
+.healthWellness p {
+    padding-top: 20px;
+    font-size: 20px;
+} 
+.map {
+    height:200px;
+    background: silver;
+    text-align: center;
+}
+
+.navbar.footer {
+    background: #222;
+}
+.footer .navbar-nav .nav-link {
+    color: #FFF;
+}
+.footer .nav-item {
+    border: 2px solid #222;
+}
+.footer .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+@media only screen and (max-width: 991px) {
+    .navbar-nav {
+        margin: auto;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .navbar {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .secondCities {
+        display: block;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 428px) {
+    .jumbotron h1 {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+    .display-4 {
+        font-size: 35px;
+    }
+    .jumbotron .rootsFlower { 
+        height: 60px;
+        width: 75px;
+    }
+    .lead {
+        font-size: 18px;
+    }
+    .jumbotron p {
+        padding-bottom: 20px;
+    }
+    .shop-now {
+        padding: 10px 20px;
+    }
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .col {
+        flex-basis: auto;
+    }
+    .local-row {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .delivery-service {
+        text-align: center;
+    }
+    .delivery-service ul {
+        padding-left: 0;
+    }
+    .delivery-service .firstCities {
+        text-align: left;
+    }
+    .delivery-service .secondCities {
+        text-align: left;
+        display: inline-block;
+        padding-left: 34px;
+    }
+    .orders-row {
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .community {
+        text-align: center;
+    }
+    
+}
