@@ -112,8 +112,9 @@ h2 span {
     text-align: center;
 }
 .first-time-visit {
-    background: silver;
+    background: #0fe1b7 url("../assets/shop/firstVisitHero.webp") no-repeat center;
     color: #fff;
+    border: 5px #0fe1b7 solid;
 }
 .first-time-visit .first-visit-btn {
     margin-bottom: 34px;
@@ -138,8 +139,9 @@ h2 span {
     color: #0fe1b7;    
 }
 .membership {
-    background: grey;
+    background: #0fe1b7 url("../assets/shop/membership.webp") no-repeat center;
     color: #fff;
+    border: 5px #0fe1b7 solid;
 } 
 .membership h2 {
     width: 280px;
@@ -184,6 +186,30 @@ h2 span {
     padding-left: 0;
     padding-right: 0;
 }
+.products-options .first-row .flowers {
+    background: #333 url("../assets/shop/flowers.webp") no-repeat center bottom;
+}
+.products-options .first-row .cartridge {
+    background: #333 url("../assets/shop/cartridges.webp") no-repeat center center;
+}
+.products-options .first-row .edibles {
+    background: #333 url("../assets/shop/edibles.webp") no-repeat left center;
+}
+.products-options .first-row .extract {
+    background: #333 url("../assets/shop/extract.webp") no-repeat left top;
+}
+.products-options .second-row .preroll {
+    background: #333 url("../assets/shop/preroll.webp") no-repeat center center;
+}
+.products-options .second-row .topical {
+    background: #333 url("../assets/shop/topical.webp") no-repeat center center;
+}
+.products-options .second-row .merch {
+    background: #333 url("../assets/shop/merch.webp") no-repeat center;
+}
+.products-options .second-row .beverage {
+    background: #333 url("../assets/shop/beverage.webp") no-repeat center;
+}
 .products-options .row a p {
     text-align: center;
     margin-top: 65%;
@@ -216,15 +242,15 @@ h2 span {
     height: 400px;
 }
 .carousel-item-1 {
-    background: #222 url("../assets/marijuana-tourist.jpg") no-repeat;
+    background: #222 url("../assets/shop/roots_broll_1.webp") no-repeat center left;
     background-size: cover;
 }
 .carousel-item-2 {
-    background: #222 url("../assets/surf.jpg") no-repeat;
+    background: #222 url("../assets/shop/roots_broll_2.webp") no-repeat left center;
     background-size: cover;
 }
 .carousel-item-3 {
-    background: #222 url("../assets/beach.jpg") no-repeat;
+    background: #222 url("../assets/shop/roots_broll_3.webp") no-repeat left center;
     background-size: cover;
 }
 .carousel-inner .carousel-item .carousel-caption {
