@@ -18,6 +18,9 @@ video {
     opacity: 0.6;
     overflow: hidden;
 }
+.wide-mobile {
+    display: none;
+}
 .header {
     position: absolute;
     margin-left: auto;
@@ -206,7 +209,9 @@ h2 span {
     background: #222;
     color: #fff;
 }
-
+.we-care h2 {
+    padding-top: 0px;
+}
 .carousel-inner .carousel-item {
     height: 400px;
 }
@@ -267,21 +272,14 @@ h2 span {
     }
 }
 @media only screen and (max-width: 920px) {
-    video {
-        transform:scaleY(1.2);
+    .desktop-video {
+        display: none;
     }
-    .home-header {
-        margin-bottom: 50px;
-    }
-}
-@media only screen and (max-width: 817px) {
-    video {
-        transform:scaleY(1.5);
-    }
-    .home-header {
-        margin-bottom: 150px;
+    .wide-mobile {
+        display: block;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .membership h2 {
         width: 240px;
@@ -296,38 +294,17 @@ h2 span {
     .products-options .row a p {
         margin-top: 12%;
     }
-}
-@media only screen and (max-width: 711px) {
-    video {
-        transform:scaleY(1.7);
+    .we-care {
+        padding-top: 24px;
     }
-}
-@media only screen and (max-width: 653px) {
-    video {
-        transform:scaleY(1.9);
+    .we-care .display-4 {
+        font-size: 2.5rem;
     }
-    .home-header{
-        margin-bottom: 180px;
-    }
-}
-@media only screen and (max-width: 587px) {
-    .header {
-        top: 30%;
-    }
-    video {
-        transform:scaleY(2.4);
-    }
-    .home-header {
-        margin-bottom: 250px;
+    .jumbotron.we-care p {
+        font-size: 24px;
     }
 }
 @media only screen and (max-width: 555px) {
-    video {
-        transform:scaleY(2.8);
-    }
-    .home-header {
-        margin-bottom: 300px;
-    }
     .community-container .row {
         display: block;
     }
@@ -346,27 +323,25 @@ h2 span {
     .bestWeedmaps .media {
         flex-direction: column;
     }
-}
-@media only screen and (max-width: 487px) {
-    video {
-        transform:scaleY(3);
+    .we-care h2 {
+        padding-top: 0;
     }
 }
-@media only screen and (max-width: 458px) {
-    .header {
-        top: 40%;
+@media only screen and (max-width: 440px) {
+    .shop-now {
+        padding: 2px 10px;
     }
-    video {
-        transform:scaleY(4);
+    .we-care .display-4 {
+        font-size: 2rem;
     }
-    .home-header {
-        margin-bottom: 400px;
+    .jumbotron.we-care p {
+        font-size: 20px;
     }
 }
 @media only screen and (max-width: 428px) {
     .jumbotron h1 {
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         font-weight: 700;
     }
     .display-4 {
@@ -379,11 +354,9 @@ h2 span {
     .lead {
         font-size: 18px;
     }
-    .jumbotron p {
-        padding-bottom: 20px;
-    }
-    .shop-now {
-        padding: 10px 20px;
+    .jumbotron .header p {
+        padding-bottom: 5px;
+        font-size: 25px;
     }
     h2 {
         font-size: 25px;
@@ -391,13 +364,5 @@ h2 span {
     }
     .we-care h2 {
         font-weight: 600;
-    }
-}
-@media only screen and (max-width: 368px) {
-    video {
-        transform:scaleY(5);
-    }
-    .home-header {
-        margin-bottom: 420px;
     }
 }
