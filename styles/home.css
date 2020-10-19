@@ -185,6 +185,7 @@ h2 span {
     background: silver;
     padding-left: 0;
     padding-right: 0;
+    border: 2px #0fe1b7 solid;
 }
 .products-options .first-row .flowers {
     background: #333 url("../assets/shop/flowers.webp") no-repeat center bottom;
@@ -212,7 +213,7 @@ h2 span {
 }
 .products-options .row a p {
     text-align: center;
-    margin-top: 65%;
+    margin-top: 100px;
     color: #fff;
     font-weight: 700;
     background: #222;
@@ -225,9 +226,33 @@ h2 span {
 .products-options .row a:hover p {
     color: #0fe1b7;  
 }
-.products-options .first-row {
-    padding-bottom: 15px;
+.products-options .row a:hover .option-title {
+    display: none;  
 }
+.products-options .row a .hoverable p {
+    margin-top: 0px;
+    background: none;
+}
+.products-options .hoverable {
+    visibility: hidden;
+    font-size: 15px;
+}
+.products-options a:hover .hoverable {
+    visibility:visible;
+    background: #222;
+    opacity: 0.7;
+    padding: 15px 15px;
+    transition: all .5s ease;
+    font-size: 15px;
+    height: 100%;
+}
+.products-options .row a .hoverable .option-description {
+    font-size: 15px;
+    line-height: 23px;
+    font-weight: 300;
+    color: #fff;
+}
+
 
 .we-care {
     margin-bottom: 0;
@@ -273,8 +298,8 @@ h2 span {
     .jumbotron h1 {
         font-weight: 600;
     }
-    .products-options .row a p {
-        margin-top: 85%;
+    .products-options .row a .hoverable .option-description {
+        line-height: 20px;
     }
 }
 @media only screen and (max-width: 999px) {
@@ -291,10 +316,8 @@ h2 span {
     .products-options .row a p {
         font-size: 15px
     }
-}
-@media only screen and (max-width: 991px) {
-    .products-options .row a p {
-        margin-top: 120%;
+    .products-options .row a .hoverable .option-description {
+        line-height: 15px;
     }
 }
 @media only screen and (max-width: 920px) {
@@ -310,15 +333,17 @@ h2 span {
     .membership h2 {
         width: 240px;
     }
-    .products-options .row a {
-        height: 150px;
-        margin-bottom: 15px;
+    .products-options .row{
+        display: block;
     }
-    .products-options .first-row {
-        padding-bottom: 0;
+    .products-options .row a{
+        display: block;
     }
     .products-options .row a p {
-        margin-top: 12%;
+        margin-top: 20%;
+    }
+    .products-options .row a .hoverable .option-description {
+        line-height: 23px;
     }
     .we-care {
         padding-top: 24px;
