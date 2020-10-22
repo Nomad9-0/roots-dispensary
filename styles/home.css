@@ -278,10 +278,26 @@ h2 span {
     background: #222 url("../assets/shop/roots_broll_3.webp") no-repeat left center;
     background-size: cover;
 }
+.carousel-item-4 {
+    background: #222 url("../assets/shop/roots_broll_4.webp") no-repeat left center;
+    background-size: cover;
+}
+.carousel-item-5 {
+    background: #222 url("../assets/shop/roots_broll_5.webp") no-repeat left center;
+    background-size: cover;
+}
+.carousel-item-6 {
+    background: #222 url("../assets/shop/roots_broll_6.webp") no-repeat left center;
+    background-size: cover;
+}
 .carousel-inner .carousel-item .carousel-caption {
     background: #222;
     opacity: 0.88;
     margin-bottom: 100px;
+}
+.carousel-caption p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -300,6 +316,11 @@ h2 span {
     }
     .products-options .row a .hoverable .option-description {
         line-height: 20px;
+    }
+}
+@media only screen and (max-width: 1084px) {
+    .carousel-inner .carousel-item-1 .carousel-caption {
+        margin-bottom: 50px;
     }
 }
 @media only screen and (max-width: 999px) {
@@ -328,7 +349,11 @@ h2 span {
         display: block;
     }
 }
-
+@media only screen and (max-width: 840px) {
+    .carousel-inner .carousel-item-1 .carousel-caption {
+        margin-bottom: 30px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .membership h2 {
         width: 240px;
@@ -355,6 +380,23 @@ h2 span {
         font-size: 24px;
     }
 }
+@media only screen and (max-width: 684px) {
+    .carousel-inner .carousel-item .carousel-caption {
+        margin-bottom: 0;
+        height: 100%;
+        bottom: 0;
+        overflow: hidden;
+        padding: 70px 0;
+        text-align: center;
+    }
+    .carousel-inner .carousel-item-1 .carousel-caption {
+        margin-bottom: 0;
+        padding: 20px 15px;
+        height: 100%;
+        bottom: 0;
+        overflow: hidden;
+    }
+}
 @media only screen and (max-width: 555px) {
     .community-container .row {
         display: block;
@@ -376,6 +418,13 @@ h2 span {
     }
     .we-care h2 {
         padding-top: 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .carousel-inner .carousel-item .carousel-caption h5 {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 1rem;
     }
 }
 @media only screen and (max-width: 440px) {
@@ -415,5 +464,10 @@ h2 span {
     }
     .we-care h2 {
         font-weight: 600;
+    }
+}
+@media only screen and (max-width: 370px) {
+    .carousel-inner .carousel-item-3 .carousel-caption {
+        padding: 30px 0;
     }
 }
