@@ -180,7 +180,7 @@ h2 span {
     padding-bottom: 80px;
 }
 .products-options .row a {
-    height: 250px;
+    height: 400px;
     text-transform: uppercase;
     background: silver;
     padding-left: 0;
@@ -189,27 +189,35 @@ h2 span {
 }
 .products-options .first-row .flowers {
     background: #333 url("../assets/shop/flowers.webp") no-repeat center bottom;
+    background-size: cover;
 }
 .products-options .first-row .cartridge {
     background: #333 url("../assets/shop/cartridges.webp") no-repeat center center;
+    background-size: cover;
 }
 .products-options .first-row .edibles {
     background: #333 url("../assets/shop/edibles.webp") no-repeat left center;
+    background-size: cover;
 }
 .products-options .first-row .extract {
     background: #333 url("../assets/shop/extract.webp") no-repeat left top;
+    background-size: cover;
 }
 .products-options .second-row .preroll {
     background: #333 url("../assets/shop/preroll.webp") no-repeat center center;
+    background-size: cover;
 }
 .products-options .second-row .topical {
     background: #333 url("../assets/shop/topical.webp") no-repeat center center;
+    background-size: cover;
 }
 .products-options .second-row .merch {
     background: #333 url("../assets/shop/merch.webp") no-repeat center;
+    background-size: cover;
 }
 .products-options .second-row .beverage {
     background: #333 url("../assets/shop/beverage.webp") no-repeat center;
+    background-size: cover;
 }
 .products-options .row a p {
     text-align: center;
@@ -252,7 +260,6 @@ h2 span {
     font-weight: 300;
     color: #fff;
 }
-
 
 .we-care {
     margin-bottom: 0;
