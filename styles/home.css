@@ -270,6 +270,17 @@ h2 span {
 .we-care h2 {
     padding-top: 0px;
 }
+
+.review-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.review-title h2{
+    font-weight: 600 !important;
+}
+.review-title p{
+    font-size: 25px;
+}
 .carousel-inner .carousel-item {
     height: 400px;
 }
@@ -324,6 +335,23 @@ h2 span {
     .products-options .row a .hoverable .option-description {
         line-height: 20px;
     }
+    .products-options .row{
+        display: block;
+    }
+    .products-options .row a{
+        display: block;
+    }
+    .products-options .row a p {
+        margin-top: 20%;
+    }
+    .products-options .row a .hoverable .option-description {
+        line-height: 23px;
+    }
+    .products-options .row a .hoverable {
+        padding-top: 100px;
+        padding-left: 54px;
+        padding-right: 54px;
+    }
 }
 @media only screen and (max-width: 1084px) {
     .carousel-inner .carousel-item-1 .carousel-caption {
@@ -364,18 +392,6 @@ h2 span {
 @media only screen and (max-width: 768px) {
     .membership h2 {
         width: 240px;
-    }
-    .products-options .row{
-        display: block;
-    }
-    .products-options .row a{
-        display: block;
-    }
-    .products-options .row a p {
-        margin-top: 20%;
-    }
-    .products-options .row a .hoverable .option-description {
-        line-height: 23px;
     }
     .we-care {
         padding-top: 24px;
@@ -471,6 +487,9 @@ h2 span {
     }
     .we-care h2 {
         font-weight: 600;
+    }
+    .review-title p{
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 370px) {
