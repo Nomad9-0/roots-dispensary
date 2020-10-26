@@ -25,7 +25,39 @@
     color: #0fe1b7;
     text-decoration: none;
 }
-
+.delivery-locations .row a:hover {
+    border: 5px solid #0fe1b7;
+}
+.delivery-locations .row .lompoc {
+    background: url("../assets/delivery/lompoc.jpg") no-repeat center; 
+}
+.delivery-locations .row .mission-hills {
+    background: url("../assets/delivery/mission_hills.jpg") no-repeat center; 
+}
+.delivery-locations .row .vandenberg {
+    background: url("../assets/delivery/vandenberg.jpg") no-repeat right bottom; 
+}
+.delivery-locations .row .orcutt {
+    background: url("../assets/delivery/orcutt.webp") no-repeat center; 
+}
+.delivery-locations .row .los-olivos {
+    background: url("../assets/delivery/los-olivos.jpg") no-repeat bottom; 
+}
+.delivery-locations .row .los-alamos {
+    background: url("../assets/delivery/los_alamos.jpg") no-repeat center; 
+}
+.delivery-locations .row .santa-maria {
+    background: url("../assets/delivery/santa-maria.jpg") no-repeat center; 
+}
+.delivery-locations .row .buellton {
+    background: url("../assets/delivery/buellton.jpg") no-repeat center bottom; 
+}
+.delivery-locations .row .solvang{
+    background: url("../assets/delivery/solvang.jpg") no-repeat center; 
+}
+.delivery-locations .row .santa-ynez {
+    background: url("../assets/delivery/santa_ynez.jpg") no-repeat center; 
+}
 .delivery-locations .row a p {
     text-align: center;
     margin-top: 30%;
@@ -62,6 +94,52 @@
 } 
 
 /* Delivery Locations Styles */
+.delivery-hero.lompoc{
+    background: url("../assets/delivery/lompoc.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.buellton{
+    background: url("../assets/delivery/buellton.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.los-alamos{
+    background: url("../assets/delivery/los_alamos.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.los-olivos{
+    background: url("../assets/delivery/los-olivos.jpg") no-repeat bottom; 
+    background-size: cover;
+}
+.delivery-hero.mission-hills{
+    background: url("../assets/delivery/mission_hills.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.orcutt{
+    background: url("../assets/delivery/orcutt.webp") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.santa-maria{
+    background: url("../assets/delivery/santa-maria.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.santa-ynez{
+    background: url("../assets/delivery/santa_ynez.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.solvang{
+    background: url("../assets/delivery/solvang.jpg") no-repeat center; 
+    background-size: cover;
+}
+.delivery-hero.vandenberg{
+    background: url("../assets/delivery/vandenberg.jpg") no-repeat bottom; 
+    background-size: cover;
+}
+.locations h1 {
+    color: #fff;
+} 
+.locations .lead{
+    color: #fff;
+} 
 .delivery-schedule-title {
     text-align: center;
     text-transform: uppercase;

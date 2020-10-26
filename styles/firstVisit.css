@@ -19,10 +19,29 @@
 .first-visit-container .row {
     padding-bottom: 20px;
 }
+.step-header {
+    height: 338px;
+}
 .first-visit-container .steps {
     font-size: 40px;
     font-weight: 700;
-    display:inline-block
+    display:inline-block;
+    padding-left: 15px;
+}
+.first-visit-container .row .step1 {
+    background: url("../assets/first_visit/step1.webp") no-repeat left;  
+}
+.first-visit-container .row .step2 {
+    background: url("../assets/first_visit/step2.webp") no-repeat left;
+}
+.first-visit-container .row .step3 {
+    background: url("../assets/first_visit/step3.webp") no-repeat left;
+}
+.first-visit-container .row .step4 {
+    background: url("../assets/first_visit/step4.webp") no-repeat left;
+}
+.first-visit-container .row .step5 {
+    background: url("../assets/first_visit/step5.webp") no-repeat left;
 }
 .first-visit-container h2 {
     text-transform: uppercase;
@@ -30,12 +49,14 @@
     background: #222;
     color: #fff;
     width: 100%;
+    padding-left: 15px;
 }
 .first-visit-container h2 span {
     color: #0fe1b7;
 }
 .first-visit-container p {
     text-align: left;
+    font-size: 24px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -50,6 +71,18 @@
     }
     .first-visit-container .row {
         flex-direction: column;
+    }
+    .step-header {
+        padding-bottom: 150px;
+    }
+    .first-visit-container .row .step2 {
+        background: url(../assets/first_visit/step2.webp) no-repeat top;
+    }
+    .first-visit-container .row .step3 {
+        background: url(../assets/first_visit/step3.webp) no-repeat top;
+    }
+    .first-visit-container .row .step5 {
+        background: url(../assets/first_visit/step5.webp) no-repeat top;
     }
 }
 @media only screen and (max-width: 386px) {

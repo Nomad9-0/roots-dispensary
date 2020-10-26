@@ -239,6 +239,7 @@ h2 span {
 }
 .products-options .row a .hoverable p {
     margin-top: 0px;
+    margin-bottom: 0px;
     background: none;
 }
 .products-options .hoverable {
@@ -256,14 +257,14 @@ h2 span {
 }
 .products-options .row a .hoverable .option-description {
     font-size: 15px;
-    line-height: 23px;
+    line-height: 20px;
     font-weight: 300;
     color: #fff;
 }
 
 .we-care {
     margin-bottom: 0;
-    padding-top: 64px;
+    padding-top: 30px;
     background: #222;
     color: #fff;
 }
@@ -418,6 +419,9 @@ h2 span {
         height: 100%;
         bottom: 0;
         overflow: hidden;
+    }
+    .carousel-caption p {
+        line-height: 20px;
     }
 }
 @media only screen and (max-width: 555px) {
