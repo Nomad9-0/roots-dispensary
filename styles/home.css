@@ -285,6 +285,9 @@ h2 span {
 .carousel-inner .carousel-item {
     height: 400px;
 }
+.carousel-inner .carousel-item h5 {
+    color: #0fe1b7;
+}
 .carousel-item-1 {
     background: #222 url("../assets/shop/roots_broll_1.webp") no-repeat center left;
     background-size: cover;
