@@ -18,7 +18,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- modal JS -->
+    <script src="./modal.js"></script>
     <!-- Page Style Sheets -->
+    <link rel="stylesheet" href="./styles/modal.css">
     <link rel="stylesheet" href="./styles/nav.css">
     <link rel="stylesheet" href="./styles/footer.css">
     <!-- Title -->
@@ -79,6 +82,27 @@
           </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-show="true" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <img src="./assets/modal-img.png" class="modal-flower" alt="The Roots Dispensary logo">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Welcome to the roots</h5>
+            
+          </div>
+          <div class="modal-body">
+            By clicking ENTER you verify that you are 21 years of age or older.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Enter</button>
+            <button type="button" class="btn btn-secondary">Exit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
 
     <div class="footer">
         <div class="container">

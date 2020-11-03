@@ -1,0 +1,21 @@
+.modal-content {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+}
+.modal-dialog {
+    margin-top: 150px;
+}
+.modal-header {
+    margin: auto;
+}
+.modal-title {
+    text-transform: uppercase;
+}
+.modal-flower {
+    width: 300px;
+    margin: auto;
+}
+.modal-backdrop.show {
+    opacity: 0.95;
+}
