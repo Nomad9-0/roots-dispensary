@@ -19,7 +19,7 @@ video {
     overflow: hidden;
 }
 .wide-mobile {
-    display: none;
+    display: none; 
 }
 .header {
     position: absolute;
